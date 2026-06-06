@@ -9,7 +9,7 @@ function Cards() {
         cardText ="skip the middle man ."
         />
       <InsightCard cardImage={image2}
-        cardtext ="demmo one two three"/>
+        cardText ="demmo one two three"/>
     </div>
   );
 }
