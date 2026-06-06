@@ -7,7 +7,7 @@ function InsightCard({ cardImage, cardText }) {
       <div className="px-4 py-3 xl:px-6 py-4">
         <p className="text-[#585858] font-[500] text-[.9rem]">
          
-          {cardtext}
+          {cardText}
         </p>
         <Button
           text="View More >"
