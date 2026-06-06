@@ -1,0 +1,147 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #fbf9f9;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  object-fit: cover;
+}
+
+.sections-bg-image {
+  background-image: url("./Images/bg-2-blur.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.custom-image {
+  background-size: cover;
+  display: block;
+}
+
+.custom-button {
+  opacity: 1;
+}
+
+.custom-hero-button {
+  margin: 0 1rem 0 0;
+}
+
+.custom-card-flex {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-section {
+  border-bottom: 2px solid gray;
+}
+
+.custom-hidden-overflow {
+  overflow: hidden;
+}
+
+.custom-left-textalign {
+  text-align: left;
+}
+
+.custom-gray-text {
+  color: #858585;
+}
+
+#intro {
+  background-image: url("./Images/w1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#services {
+  background-image: url("./Images/w4.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#featured {
+  background-image: url("./Images/w3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.custom-testimonial-flex {
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1152px) {
+  .responsive-logo-text {
+    font-size: 1.5rem;
+  }
+  .responsive-logo-image {
+    height: 72px;
+    width: 72px;
+  }
+  .responsive-navbar {
+    padding: 0 20px;
+  }
+  .responsive-tab {
+    margin: 0 8px;
+  }
+  .responsive-button {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .responsive-primary-hero-heading {
+    font-size: 36px;
+  }
+  .responsive-secondary-hero-heading {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 935px) {
+  .responsive-tabs {
+    flex-direction: column;
+  }
+  .responsive-navbar {
+    justify-content: center;
+    gap: 20px;
+  }
+  .responsive-primary-hero-heading {
+    font-size: 36px;
+  }
+  .responsive-secondary-hero-heading {
+    font-size: 20px;
+  }
+  .responsive-hero-container {
+    top: 48px;
+    left: 48px;
+  }
+}
+
+.i_and_t {
+  background-image: url("./Images/iandt.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.i_and_t::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("./Images/iandt.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: blur(5px);
+  transform: scale(1.1); /* prevents blurry edges */
+  z-index: -1;
+}
