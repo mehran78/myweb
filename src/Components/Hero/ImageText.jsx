@@ -25,7 +25,7 @@ function ImageText() {
         extraClasses={"custom-hero-button"}
         bgc={"#14264A"}
       />
-        <a/>
+      </a>>
     </div>
   );
 }
