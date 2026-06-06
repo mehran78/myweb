@@ -8,7 +8,7 @@ function InsightCard({ cardImage }) {
         <p className="text-[#585858] font-[500] text-[.9rem]">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae
           perferendis placeat itaque mollitia temporibus debitis beatae, minima
-          iste nostrum quam!
+          iste nostrum quam! abcsdsad
         </p>
         <Button
           text="View More >"
