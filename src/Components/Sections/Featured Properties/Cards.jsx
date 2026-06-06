@@ -8,18 +8,23 @@ function Cards() {
     // <div className="flex justify-center items-center gap-3 flex-col bg-red-300">
     <div className="flex justify-center items-center gap-3 flex-col px-12 sm:px-24 md:flex-row md:px-12">
       <Card
-        text={"Park View City"}
-        range={"$120,000 - $250,000"}
+        text={"Sector F6 ISB"}
+        range={"230M PKR - 800M PKR"}
         cardImage={image1}
       />
       <Card
-        text={"F-11 Sector"}
-        range={"$200,000 - $400,000"}
+        text={"Sector E7 ISB"}
+        range={"250M PKR - 800M PKR"}
+        cardImage={image1}
+      />
+      <Card
+        text={"F-7 Sector"}
+        range={"240M PKR - 800M PKR"}
         cardImage={image2}
       />
       <Card
-        text={"G-10 Sector"}
-        range={"$300,000 - $503,000"}
+        text={"F8  Sector"}
+        range={"220M PKR - 700M PKR"}
         cardImage={image3}
       />
     </div>
