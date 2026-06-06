@@ -12,8 +12,7 @@ function Cards() {
 
       <Card
         text={
-"Finding a premium, secure residential stay in a new city can be challenging. I needed a high-end luxury apartment in Islamabad that offered both top-tier security and a convenient commute to our corporate headquarters
-        They bypass the usual market noise and provide only 100% verified, possession-ready properties. From the transparent contract terms to the efficient handling of expat documentation, their team handled everything with absolute professionalism. Highly recommended for any international professional moving to the capital"        }
+"Finding a premium, secure residential stay in a new city can be challenging. I needed a high-end luxury apartment in Islamabad that offered both top-tier security and a convenient commute to our corporate headquarters.They bypass the usual market noise and provide only 100% verified, possession-ready properties. From the transparent contract terms to the efficient handling of expat documentation, their team handled everything with absolute professionalism. Highly recommended for any international professional moving to the capital"        }
         writer={"Mr Kim"}
       />
     </div>
