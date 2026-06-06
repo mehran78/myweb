@@ -1,6 +1,6 @@
 import Button from "../../../Navbar/Button";
 
-function InsightCard({ cardImage, cardtext }) {
+function InsightCard({ cardImage, cardText }) {
   return (
     <div className="flex flex-col sm:flex-row bg-red-300 rounded-md shadow-xl overflow-hidden bg-white lg:max-w-[45dvw] xl:max-w-[35dvw]">
       <img className="sm:max-w-48 w-full" src={cardImage}></img>
