@@ -15,11 +15,17 @@ function ImageText() {
         extraClasses={"custom-hero-button"}
         bgc={"#AE7F4A"}
       />
+      <a href="https://wa.me/923330535049"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block"
+        >
       <Button
         text={"Schedule Consultation"}
         extraClasses={"custom-hero-button"}
         bgc={"#14264A"}
       />
+        <a/>
     </div>
   );
 }
